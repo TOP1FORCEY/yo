@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApp2
+namespace ConsoleApp3
 {
     class Program
     {
@@ -14,6 +14,11 @@ namespace ConsoleApp2
             hohoh = Convert.ToInt32(Console.ReadLine());
             hohoh = hohoh * hohoh;
             Console.WriteLine("UR S IS");
+            Console.WriteLine(hohoh);
+
+      
+            hohoh = hohoh + hohoh;
+            Console.WriteLine("UR P  IS");
             Console.WriteLine(hohoh);
 
             Console.ReadKey();
